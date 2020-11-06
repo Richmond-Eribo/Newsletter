@@ -3,7 +3,6 @@ body {
     
 }
 
-
 h1 {
     font-family: Arial, Helvetica, "sans-serif";
     width: 100%;
@@ -17,10 +16,7 @@ h1 {
     width: 100%;
     font-family: "sans-serif";
     color: #768696;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 35px;
-    
+    font-weight: 400;    
 }
 
 .formBg {
@@ -33,6 +29,10 @@ input {
     margin-bottom: 5px;
     border: 1px solid rgb(170, 166, 166);
     border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
 }
 
 button {
@@ -64,6 +64,14 @@ button:hover {
 
 
 
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    color: #768696;
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -75,6 +83,11 @@ button:hover {
 
     h1 {
         text-align: center;
+    }
+
+    .welcome {
+    font-size: 30px;
+    line-height: 35px;
     }
 
     .form {
@@ -101,6 +114,12 @@ button:hover {
     h1 {
     font-size: 50px;
     }
+
+    .welcome {
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: larger;
+        }
 }
 
 
