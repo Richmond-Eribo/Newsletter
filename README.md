@@ -8,7 +8,7 @@
 
 Follow me on a journey and learn with me as I explore new technologies. This is a curated set of weekly mails particular in design engineering which may also include frontend web development.
 
-subscribe [here](https://mail.cnat.com.ng)
+Subscribe [here](https://mail.cnat.com.ng)
 
 The goal is to build community-driven articles for subscribers to consume, grow and be a part of.
 
