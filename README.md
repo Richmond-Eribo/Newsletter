@@ -7,7 +7,8 @@
 > Inspired by the latest trend in industry 4.0
 
 Follow me on a journey and learn with me as I explore new technologies. This is a curated set of weekly mails particular in design engineering which may also include frontend web development.
-[Cnat newsletter](https://mail.cnat.com.ng)
+
+subscribe [here](https://mail.cnat.com.ng)
 
 The goal is to build community-driven articles for subscribers to consume, grow and be a part of.
 
