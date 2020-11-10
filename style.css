@@ -10,6 +10,29 @@ h1 {
     /* letter-spacing: 2px; */
 }
 
+.separator{
+    display: flex;
+    gap: 4px;
+}
+.separator-box {
+  width: 20%;
+  height: 3px;
+}
+.pink {
+  background-color: #ff74c3;
+}
+.purple {
+  background-color: #7474ff;
+}
+.blue {
+  background-color: #74ffd0;
+}
+.yellow {
+  background-color: #fff474;
+}
+.red {
+  background-color: #ff7b74;
+}
 
 .welcome {
     display: block;
