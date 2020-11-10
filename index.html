@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Newsletter</title>
   <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> -->
-  <link rel="stylesheet" href="./style.css">
-  <script src="./dynamic.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -27,18 +26,23 @@
     </header>
 
     <form>
-      <input type="text" name="firstName" placeholder="FIRST NAME">
-      <input type="text" name="lastName" placeholder="LAST NAME">
-      <input type="email" name="email" placeholder="EMAIL" class="middle">
+      <input type="text" id="firstName" aria-label="Enter your first name here" placeholder="FIRST NAME">
+      <input type="text" id="lastName" aria-label="Enter your last name here" placeholder="LAST NAME">
+      <input type="email" id="email" aria-label="Enter your email address here" placeholder="EMAIL" class="middle">
       <button type="submit" class="submit">SUBSCRIBE</button>
     </form>
 
+    <section id="submitted">
+      <p>Congrats on joining our newsletter. This is a great community. You will not regret this decision 🤗</p>
+    </section>
     <p class="no-spam">I promise not to spam you</p>
   </main>
 
   <footer>
     <p>© 2020 Cnat, all rights reserved</p>
   </footer>
+
+  <script src="dynamic.js"></script>
 </body>
 
 </html>

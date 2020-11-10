@@ -92,6 +92,13 @@ footer {
   color: #768696;
 }
 
+#submitted {
+    display: none;
+    border-top: 2px dashed #768696;
+    color: aliceblue;
+    font-size: 2rem;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   main {
