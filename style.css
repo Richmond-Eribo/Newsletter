@@ -1,5 +1,5 @@
 body {
-  background-color: #1e1f21;
+  background-color: #20263d;
 }
 
 h1 {
@@ -15,21 +15,6 @@ h1 {
 .separator-box {
   width: 20%;
   height: 3px;
-}
-.pink {
-  background-color: #ff74c3;
-}
-.purple {
-  background-color: #7474ff;
-}
-.blue {
-  background-color: #74ffd0;
-}
-.yellow {
-  background-color: #fff474;
-}
-.red {
-  background-color: #ff7b74;
 }
 
 .welcome {
@@ -55,12 +40,14 @@ button {
   background-color: slateblue;
   display: block;
   color: white;
-  margin: auto;
+  /* margin: auto; */
   margin-top: 20px;
   padding: 10px 32px;
   border: none;
   border-radius: 10px;
   transition: 0.4s;
+  grid-column: 2 / 3;
+  justify-self: end;
 }
 
 button:hover {
@@ -93,23 +80,29 @@ footer {
 }
 
 #submitted {
-    display: none;
-    border-top: 2px dashed #768696;
-    color: aliceblue;
+  display: none;
+  /* border-top: 2px dashed #768696; */
+  font-family: 'sans-serif';
+  color: aliceblue;
     font-size: 2rem;
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  main {
-    width: 500px;
-    margin: auto;
   }
-
-  h1 {
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    main {
+      width: 500px;
+      margin: auto;
+    }
+    
+    h1 {
     text-align: center;
   }
 
+  .card {
+    background-color: #181c30;
+    padding: 10px;
+  }
+  
   .welcome {
     font-size: 30px;
     line-height: 35px;
@@ -120,7 +113,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
   }
-
+  
   .middle {
     grid-column: 1 / 3;
     grid-row: 2;
@@ -135,14 +128,31 @@ footer {
     justify-content: center;
     margin: auto;
   }
-
+  
   h1 {
     font-size: 50px;
   }
-
+  
   .welcome {
     font-size: 20px;
     line-height: 25px;
     letter-spacing: larger;
   }
 }
+
+/* for the seperator */
+/* .pink {
+  background-color: #ff74c3;
+}
+.purple {
+  background-color: #7474ff;
+}
+.blue {
+  background-color: #74ffd0;
+}
+.yellow {
+  background-color: #fff474;
+}
+.red {
+  background-color: #ff7b74;
+} */

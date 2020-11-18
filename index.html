@@ -13,28 +13,32 @@
   <main>
     <header>
       <h1>Design and Manufacturing</h1>
-      <div role="separator" class="separator">
+
+      <!-- seperator -->
+      <!-- <div role="separator" class="separator">
         <div class="separator-box pink"></div>
         <div class="separator-box purple"></div>
         <div class="separator-box blue"></div>
         <div class="separator-box yellow"></div>
         <div class="separator-box red"></div>
-      </div>
+      </div> -->
+    </header>
+    
+    <div class="card"> 
       <p class="welcome">Hey, welcome to cnat newsletter, I'll be taking you on a journey into design engineering
         and manufacturing, driving your enthusiasm in industrial changes and how it affect Nigeria
       </p>
-    </header>
+      <form>
+        <input type="text" id="firstName" aria-label="Enter your first name here" placeholder="FIRST NAME">
+        <input type="text" id="lastName" aria-label="Enter your last name here" placeholder="LAST NAME">
+        <input type="email" id="email" aria-label="Enter your email address here" placeholder="EMAIL" class="middle">
+        <button type="submit" class="submit">SUBSCRIBE</button>
+      </form>
+      <section id="submitted">
+        <p>Congrats on joining our newsletter. This is a great community. You will not regret this decision </p>
+      </section>
+    </div>
 
-    <form>
-      <input type="text" id="firstName" aria-label="Enter your first name here" placeholder="FIRST NAME">
-      <input type="text" id="lastName" aria-label="Enter your last name here" placeholder="LAST NAME">
-      <input type="email" id="email" aria-label="Enter your email address here" placeholder="EMAIL" class="middle">
-      <button type="submit" class="submit">SUBSCRIBE</button>
-    </form>
-
-    <section id="submitted">
-      <p>Congrats on joining our newsletter. This is a great community. You will not regret this decision 🤗</p>
-    </section>
     <p class="no-spam">I promise not to spam you</p>
   </main>
 
