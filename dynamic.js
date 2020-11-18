@@ -1,6 +1,7 @@
 window.addEventListener('load', (ev) => {
   const form = document.forms.item(0)
   const submitted = document.getElementById('submitted')
+  const welcome  = document.getElementById('welcome')
 
   form.addEventListener('submit', (ev) => {
     ev.preventDefault()
@@ -15,7 +16,10 @@ window.addEventListener('load', (ev) => {
       email: email.value,
     })
 
+
     form.style.display = 'none'
+
+    welcome.style.display = 'none'
 
     submitted.style.display = 'block'
   })
